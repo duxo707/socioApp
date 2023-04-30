@@ -29,7 +29,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
     getUserPosts();
     else
     getPosts();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <>
